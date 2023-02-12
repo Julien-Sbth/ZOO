@@ -144,8 +144,8 @@ int main()
     cout << "Jour Avant Faim: " << a.getJourAvantFamin() << endl;
     cout << "Maturite Sexuel: " << a.getMaturiteSexuelMale() << endl;
     cout << "Maturite Sexuel: " << a.getMaturiteSexuelFemelle() << endl;
-    cout << "NbrKiloNourriture: " << a.getNbrKiloNourritureFemelle() << endl;
     cout << "NbrKiloNourriture: " << a.getNbrKiloNourritureMale() << endl;
+    cout << "NbrKiloNourriture: " << a.getNbrKiloNourritureFemelle() << endl;
     cout << "NbrTigre: " << a.getNbrAigle() << endl;
     cout << "Pontee: " << a.getPontee() << endl;
     cout << "Aigle Male: " << a.getAigleMale() << endl;
@@ -165,10 +165,7 @@ int main()
     t.setNbrKiloNourritureFemelle (10);
     t.setNbrKiloNourritureMale (12);
     t.setPontee ("3 individus par port�e / max 1 port�e tous les 20 mois");
-    /*
-    t.setTigreMale;
-    t.setTigreFemelle;
-    */
+
     // Classe Tigre
     cout << "Nombre de Tigre: " << t.getNbrTigre() << endl;
     cout << "Alimentation: " << t.getAlimentation() << endl;
@@ -176,14 +173,11 @@ int main()
     cout << "Esperence de vie: " << t.getEsperanceDeVie() << endl;
     cout << "Fin de Gestation des Tigres: " << t.getGestation() << endl;
     cout << "Jour Avant Faim: " << t.getJourAvantFamin() << endl;
-    cout << "Maturite Sexuel: " << t.getMaturiteSexuelMale() << endl;
-    cout << "Maturite Sexuel: " << t.getMaturiteSexuelFemelle() << endl;
-    cout << "NbrKiloNourriture: " << t.getNbrKiloNourritureFemelle() << endl;
-    cout << "NbrKiloNourriture: " << t.getNbrKiloNourritureMale() << endl;
-    cout << "NbrTigre: " << t.getNbrTigre() << endl;
+    cout << "Maturite Sexuel Male: " << t.getMaturiteSexuelMale() << endl;
+    cout << "Maturite Sexuel Femelle: " << t.getMaturiteSexuelFemelle() << endl;
+    cout << "NbrKiloNourriture Male: " << t.getNbrKiloNourritureMale() << endl;
+    cout << "NbrKiloNourriture Femelle: " << t.getNbrKiloNourritureFemelle() << endl;
     cout << "Pontee: " << t.getPontee() << endl;
-    cout << "Tigre Male: " << t.getTigreMale() << endl;
-    cout << "Tigre Femelle: " << t.getTigreFemelle() << endl;
 
 
     return 0;
