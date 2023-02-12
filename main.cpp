@@ -10,6 +10,68 @@ using namespace std;
 
 int main()
 {
+
+    HabitatTigre HT;
+    HT.setAchat (25);
+    HT.setVente (25);
+    HT.setCapacite (25);
+    HT.setMaladie ("25");
+    HT.setTigre ("25");
+    HT.setPerte( "50%");
+
+    HabitatAigle HA;
+    HA.setAchat (25);
+    HA.setAigle ("Aigle: ");
+    HA.setMaladie ("25");
+    HA.setVente (25);
+    HA.setCapacite (25);
+    HA.setPerte( "50%");
+
+    HabitatPoule HP;
+    HP.setPoule("Poule:");
+    HP.setAchat (25);
+    HP.setVente (25);
+    HP.setMaladie ("25");
+    HP.setCapacite (25);
+    HP.setPerte( "50%");
+
+    HabitatCoq HC;
+    HC.setAchat (25);
+    HC.setVente (25);
+    HC.setMaladie ("25");
+    HC.setCoq("Coq: ");
+    HC.setCapacite (25);
+    HC.setPerte("50%");
+
+    cout << "" << HP.getPoule() << endl;
+    cout << "Un achat d'une poule equivaut en euros : " << HP.getAchat() << endl;
+    cout << "Une vente d'une poule equivaut en euros est de : " << HP.getVente() << endl;
+    cout << "Le risque que la poule soit malade est de: " << HP.getMaladie() << endl;
+    cout << "La capacité de Poule disponible: " << HP.getCapacite() << endl;
+    cout << "Le risque de perte d'une poule pendant le premier mois: " << HP.getPerte() << endl;
+
+    cout << "" << HT.getTigre() << endl;
+    cout << "Un achat d'un tigre equivaut en euros : " << HT.getAchat() << endl;
+    cout << "Une vente d'un tigre equivaut en euros est de : " << HT.getVente() << endl;
+    cout << "Le risque que le tigre soit malade est de: " << HT.getMaladie() << endl;
+    cout << "La capacité de Tigre disponible: " << HT.getCapacite() << endl;
+    cout << "Le risque de perte d'un tigre pendant le premier mois: " << HT.getPerte() << endl;
+
+    cout << "" << HC.getCoq() << endl;
+    cout << "Un achat d'un coq equivaut en euros : " << HC.getAchat() << endl;
+    cout << "Une vente d'un coq equivaut en euros est de : " << HC.getVente() << endl;
+    cout << "Le risque que le coq soit malade est de: " << HC.getMaladie() << endl;
+    cout << "La capacité de Coq disponible: " << HC.getCapacite() << endl;
+    cout << "Le risque de perte d'une coq pendant le premier mois: " << HC.getPerte() << endl;
+
+    cout << "" << HA.getAigle() << endl;
+    cout << "Un achat d'un coq equivaut en euros : " << HA.getAchat() << endl;
+    cout << "Une vente d'un coq equivaut en euros est de : " << HA.getVente() << endl;
+    cout << "Le risque que le coq soit malade est de: " << HA.getMaladie() << endl;
+    cout << "La capacité de Coq disponible: " << HA.getCapacite() << endl;
+    cout << "Le risque de perte d'une coq pendant le premier mois: " << HA.getPerte() << endl;
+
+
     Coq c;
     c.setAlimentation ("test");
     c.setCoq ("Jose");
@@ -122,6 +184,7 @@ int main()
     cout << "Pontee: " << t.getPontee() << endl;
     cout << "Tigre Male: " << t.getTigreMale() << endl;
     cout << "Tigre Femelle: " << t.getTigreFemelle() << endl;
+
 
     return 0;
 }

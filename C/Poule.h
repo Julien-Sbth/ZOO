@@ -92,6 +92,64 @@ public:
 
 };
 
+class HabitatPoule
+{
+    string poule;
+    int achat;
+    int vente;
+    int capacite;
+    string  perte;
+    string maladie;
 
+public:
+    string getPoule()
+    {
+        return poule;
+    }
+    void setPoule(string p)
+    {
+        poule = p;
+    }
+    int getAchat()
+    {
+        return achat;
+    }
+    void setAchat(int a)
+    {
+        achat = a;
+    }
+    int getVente()
+    {
+        return vente;
+    }
+    void setVente(int v)
+    {
+        vente = v;
+    }
+    int getCapacite()
+    {
+        return capacite;
+    }
+    void setCapacite(int c)
+    {
+        capacite = c;
+    }
+    string getPerte()
+    {
+        return perte;
+    }
+    void setPerte(string p)
+    {
+        perte = p;
+    }
+    string getMaladie()
+    {
+        return maladie;
+    }
+    void setMaladie(string m)
+    {
+        maladie= m;
+    }
+};
 
 #endif // POULE_H_INCLUDED

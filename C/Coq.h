@@ -88,4 +88,64 @@ public:
         finDeReproduction = FDR;
     }
 };
+class HabitatCoq
+{
+    string coq;
+    int achat;
+    int vente;
+    int capacite;
+    string  perte;
+    string maladie;
+
+public:
+    string getCoq()
+    {
+        return coq;
+    }
+    void setCoq(string c)
+    {
+        coq = c;
+    }
+    int getAchat()
+    {
+        return achat;
+    }
+    void setAchat(int a)
+    {
+        achat = a;
+    }
+    int getVente()
+    {
+        return vente;
+    }
+    void setVente(int v)
+    {
+        vente = v;
+    }
+    int getCapacite()
+    {
+        return capacite;
+    }
+    void setCapacite(int c)
+    {
+        capacite = c;
+    }
+    string getPerte()
+    {
+        return perte;
+    }
+    void setPerte(string p)
+    {
+        perte = p;
+    }
+    string getMaladie()
+    {
+        return maladie;
+    }
+    void setMaladie(string m)
+    {
+        maladie= m;
+    }
+};
+
 #endif //C_COQ_H
