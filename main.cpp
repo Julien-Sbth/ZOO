@@ -1,11 +1,12 @@
 #include <iostream>
 #include <string>
-#include "C/Tigre.h"
-#include "C/Aigle.h"
-#include "C/Poule.h"
-#include "C/Coq.h"
-#include "C/Ingredient.h"
-
+#include "C/Classes/Tigre.h"
+#include "C/Classes/Aigle.h"
+#include "C/Classes/Poule.h"
+#include "C/Classes/Coq.h"
+#include "C/Classes/Ingredient.h"
+#include "C/Classes/Money.h"
+#include "C/Classes/Visiteur.h"
 using namespace std;
 
 int main()
